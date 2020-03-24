@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:calibri, ,segoe ui`, arial, tahoma, sans-serif;
+}
+
+body{
+	background-color:#DDA0DD;
+}
+
+#wrapper{
+	width : 780px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header{
+	background: url(image/header.jpg) repeat-x #DA70D6;
+	height : auto;
+	width : 100%;
+	padding:5px;
+	margin : 20px 0;
+	overflow : hidden;
+}
+header img{ width:100px ; height:75px ; }
+
+#menu-utama{
+	margin-top:5px;
+	list-style:none;
+}
+
+#menu-utama li{
+	float:left;
+	padding:8px 20px;
+	border-right:1px solid #D8BFD8;
+}
+
+#menu-utama li a{
+	color : #D8BFD8;
+	text-decoration:none;
+}
+#menu-utama li.active{
+	background:#D8BFD8;
+	color:#333;
+}
+
+#menu-utama li.active a{
+	color:#333;
+}
+
+header form{
+	float:right;
+	margin-top:7px;
+	margin-right: 10px;
+}
+
+header form input{
+	border:none;
+	height:30px;
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border {
+    background: -webkit-linear-gradient(right, #D8BFD8, #CD5C5C);
+    height: 1px;
+    width: 100%;
+}
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+#submit-btn {
+	float: left;
+    background: -webkit-linear-gradient(right, #E0FFFF, #EE82EE);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #FFA07A;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 20px;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 154px
+	
+}
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px#FF00FF;
+}
+
+#reset-btn {
+	float: left;
+    background: -webkit-linear-gradient(right, #E0FFFF, #EE82EE);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #FF00FF;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 20px;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 154px
+	
+}
+#reset-btn:hover {
+    box-shadow: 0px 1px 18px #FF4500;
+}
+
+#footer{
+	clear:both;
+	margin:20px 0;
+	text-align:center;
+	background-color: #f0f0f0;
+	padding:5px;
+	color:#555555;
